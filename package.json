@@ -1,0 +1,23 @@
+{
+  "name": "loan-calculator",
+  "version": "1.0.0",
+  "description": "Loan calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suzanamelomoraes/loan-calculator.git"
+  },
+  "keywords": [
+    "loan",
+    "calculator"
+  ],
+  "author": "Suzana Melo Moraes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suzanamelomoraes/loan-calculator/issues"
+  },
+  "homepage": "https://github.com/suzanamelomoraes/loan-calculator#readme"
+}
