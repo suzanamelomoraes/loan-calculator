@@ -25,8 +25,23 @@ function calculateResults(e) {
       initialAmount
     ).toFixed(2);
   } else {
-    alert("Please inform a valid information");
+    showError("Please check your numbers");
   }
 
   e.preventDefault();
+
+  function showError(error) {
+    const errorDiv = document.createElement("div");
+
+    const card = document.querySelector(".card");
+    const heading = document.querySelector(".heading");
+
+    errorDiv.className = "alert alert-danger";
+
+    errorDiv.appendChild(document.createTextNode(error));
+
+    card.insertBefore(errorDiv, heading);
+  }
+
+  setTimeout(clearError, 3000);
 }
