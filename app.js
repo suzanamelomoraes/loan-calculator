@@ -11,8 +11,11 @@ function calculateResults(e) {
   const totalInterestUI = document.getElementById("total-interest");
 
   const initialAmount = parseFloat(amountUI.value);
-  const calculatedInterested = interestUI.value / 100 / 12;
+  const calculatedInterest = interestUI.value / 100 / 12;
   const calculatedPayments = parseFloat(yearsUI.value) * 12;
+
+  const x = Math.pow(1 + calculatedInterest, calculatedPayments);
+  const monthly = (initialAmount * x * calculatedInterest) / (x - 1);
 
   e.preventDefault();
 }
