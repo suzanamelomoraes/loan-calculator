@@ -17,5 +17,16 @@ function calculateResults(e) {
   const x = Math.pow(1 + calculatedInterest, calculatedPayments);
   const monthly = (initialAmount * x * calculatedInterest) / (x - 1);
 
+  if (isFinite(monthly)) {
+    monthlyPaymentUI.value = monthly.toFixed(2);
+    totalPaymentUI.value = (monthly * calculatedPayments).toFixed(2);
+    totalInterestUI.value = (
+      monthly * calculatedPayments -
+      initialAmount
+    ).toFixed(2);
+  } else {
+    alert("Please inform a valid information");
+  }
+
   e.preventDefault();
 }
