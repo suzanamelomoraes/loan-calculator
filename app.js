@@ -43,5 +43,9 @@ function calculateResults(e) {
     card.insertBefore(errorDiv, heading);
   }
 
-  setTimeout(clearError, 3000);
+  setTimeout(clearError, 2000);
+}
+
+function clearError() {
+  document.querySelector(".alert").remove();
 }
