@@ -12,3 +12,4 @@ Technologies:
 
 JavaScript, Bootstrap for styling, JQuery(link included only as dependency)
 
+# loan-calculator
