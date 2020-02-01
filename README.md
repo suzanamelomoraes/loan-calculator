@@ -8,6 +8,6 @@ The main goal of this project is to practice to grab and manipulate classes and 
 
 This application is one of the projects developed in the course Modern JavaScript from the Beginning by Udemy/Brad Traversy.
 
-Technologies:
+### Technologies:
 
 JavaScript, Bootstrap for styling, JQuery(link included only as dependency)
