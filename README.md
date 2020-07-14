@@ -10,4 +10,6 @@ This application is one of the projects developed in the course Modern JavaScrip
 
 ### Technologies:
 
-JavaScript, Bootstrap for styling, JQuery(link included only as dependency)
+- JavaScript
+- Bootstrap for styling
+- JQuery(link included only as dependency)
