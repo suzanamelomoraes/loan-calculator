@@ -1,6 +1,6 @@
 # Loan calculator
 
-Application that allows the user to calculate loans.
+Application in vanilla JS that allows the user to calculate loans.
 
 The user can calculate loans after inform values of amount, interest and years to repay. The calculator returns the cost of the monthly payment and how much is going to be the total payment and total interest of the loan.
 
